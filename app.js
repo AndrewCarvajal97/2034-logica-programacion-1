@@ -1,5 +1,5 @@
 //variables 
-let numeroMaximoPosible=3;
+let numeroMaximoPosible=prompt("ingrese el numero maximo que podria salir");
 let numeroSecreto = Math.floor(Math.random()*numeroMaximoPosible)+1;//utilizamos el metodo math para eliminar dicimales y para buscar numeros ramdon;
 let numeroUsuario= 0;// pide el numero que el usuario cree que es el secreto
 let contador = 1;
